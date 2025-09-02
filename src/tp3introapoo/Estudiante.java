@@ -9,10 +9,10 @@ package tp3introapoo;
  * @author gmgud_ita4nrw
  */
 public class Estudiante {
-    String nombre;
-    String apellido;
-    String curso;
-    double calificacion;
+    public String nombre;
+    public String apellido;
+    public String curso;
+    public double calificacion;
     
     public void mostrarInfo(){
         System.out.println("Nombre: "+ nombre + "\nApellido: " + apellido +

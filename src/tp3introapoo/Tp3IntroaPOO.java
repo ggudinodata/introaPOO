@@ -18,6 +18,7 @@ public class Tp3IntroaPOO {
                 
 
 // EJERCICIO 1
+        System.out.println("EJERCICIO 1\n");
         Estudiante juan = new Estudiante();
         
         juan.nombre = "Juan";
@@ -34,6 +35,20 @@ public class Tp3IntroaPOO {
         juan.mostrarInfo();
         
 // EJERCICIO 2
+        System.out.println("\nEJERCICIO 2\n");
+        // Creación de la mascota
+        Mascota conejo = new Mascota();
+        
+        conejo.nombre = "Pepito";
+        conejo.especie = "Oryctolagus cuniculus (Conejo)";
+        conejo.edad = 5;
+        
+        conejo.mostrarInfo();
+        
+        System.out.println("Cumpleaños de " + conejo.nombre);
+        conejo.cumplirAnios();
+        
+        conejo.mostrarInfo();
     }
     
 }
