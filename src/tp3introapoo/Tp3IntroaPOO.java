@@ -92,6 +92,29 @@ public class Tp3IntroaPOO {
         
 // EJERCICIO 5
         System.out.println("\nEJERCICIO 5\n");
+        
+        NaveEspacial apollo = new NaveEspacial();
+        apollo.nombre = "Apollo";
+        apollo.mostrarEstado();
+        
+        System.out.println("Intentamos despegar");
+        apollo.despegar();
+        
+        System.out.println("Le cargamos 100 unidades de combustible.");
+        apollo.recargarCombustible(100);
+        System.out.println("Le cargamos 50 unidades de combustible.");
+        apollo.recargarCombustible(50);
+        
+        System.out.println("Intentamos despegar");
+        apollo.despegar();
+        
+        System.out.println("Avanzamos 3 unidades de distancia");
+        apollo.avanzar(3);
+        
+        apollo.mostrarEstado();
+        
+        
+        
     }
     
 }
