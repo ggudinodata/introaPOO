@@ -49,6 +49,19 @@ public class Tp3IntroaPOO {
         conejo.cumplirAnios();
         
         conejo.mostrarInfo();
+        
+// EJERCICIO 3
+        System.out.println("\nEJERCICIO 3\n");
+        
+        Libro book = new Libro();
+        
+        book.setAutor("George Orwell");
+        book.setTitulo("1984");
+        book.setAnioPublicacion(1849);
+        System.out.println("Año de publicacion v1: " + book.getAnioPublicacion());
+        
+        book.setAnioPublicacion(1949);
+        System.out.println("Año de publicacion v2: " + book.getAnioPublicacion());
     }
     
 }
