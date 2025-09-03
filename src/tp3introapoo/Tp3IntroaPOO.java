@@ -62,6 +62,36 @@ public class Tp3IntroaPOO {
         
         book.setAnioPublicacion(1949);
         System.out.println("Año de publicacion v2: " + book.getAnioPublicacion());
+        
+// EJERCICIO 4
+        System.out.println("\nEJERCICIO 4\n");
+        
+        System.out.println("Nace Gallina 1");
+        Gallina chick1 = new Gallina();
+        chick1.idGallina = 1;
+        
+        System.out.println("Pone 1 huevo gallina 1 ");
+        chick1.ponerHuevo();
+        
+        System.out.println("Pasa 1 año");
+        
+        System.out.println("Nace Gallina 2");
+        Gallina chick2 = new Gallina();
+        chick2.idGallina = 2;
+        chick1.envejecer();
+        
+        System.out.println("Pone 1 huevo gallina 1 y gallina 2");
+        chick1.ponerHuevo();
+        chick2.ponerHuevo();
+        
+        System.out.println("Estado gallina 1: ");
+        chick1.mostrarEstado();
+        
+        System.out.println("Estado gallina 2: ");
+        chick2.mostrarEstado();
+        
+// EJERCICIO 5
+        System.out.println("\nEJERCICIO 5\n");
     }
     
 }
